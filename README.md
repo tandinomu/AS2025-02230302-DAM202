@@ -1,4 +1,4 @@
-# Word2Vec Practical: Training Custom Word Embeddings with Alice in Wonderland
+# Word2Vec Practical: 
 
 In this practical, is aimed to learning how to train the **Word2Vec models from scratch** using Python and the **Gensim** library. This focuses on creating custom word embeddings using *Alice's Adventures in Wonderland* as the training dataset.
 
