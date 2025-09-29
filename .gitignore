@@ -1,0 +1,25 @@
+# Python virtual environments
+bin/
+etc/
+include/
+lib/
+lib64/
+share/
+pyvenv.cfg
+*.pyc
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data files
+*.csv
+weather_data.csv
+*.dylib
+*.so
+
+# Preprocessed data
+preprocessed_*/
+
+# OS files
+.DS_Store
