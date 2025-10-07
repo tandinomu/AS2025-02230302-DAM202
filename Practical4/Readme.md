@@ -132,7 +132,7 @@ This report presents the implementation and comparison of LSTM and GRU models fo
 
 ### 5.3 Comparative Analysis
 
-| Metric | LSTM | GRU | Winner | Difference |
+| Metric | LSTM | GRU | Preferred Model | Difference |
 |--------|------|-----|--------|------------|
 | RMSE | 1.45°C | 1.83°C | LSTM | 0.38°C lower |
 | MAE | 1.11°C | 1.46°C | LSTM | 0.35°C lower |
@@ -236,6 +236,6 @@ This report presents the implementation and comparison of LSTM and GRU models fo
 
 
 
-## 10. Conclusion
+## 9. Conclusion
 
 This practical successfully implemented and compared LSTM and GRU architectures for weather temperature prediction using historical Bangladesh weather data. Both models were correctly built with proper preprocessing, sequence creation, training procedures, and comprehensive evaluation metrics. LSTM emerged as the superior model, achieving an RMSE of 1.45°C and R² score of 0.8886 compared to GRU's 1.83°C and 0.8222 respectively. Notably, LSTM also trained 5.2× faster than GRU despite having 23% more parameters, likely due to optimized hardware acceleration. With 84.1% of predictions falling within ±2°C of actual temperatures, the LSTM model works well enough to be used in real-world weather forecasting systems The significant performance gap in both accuracy and training efficiency makes LSTM the clear choice for this application. LSTM's special design is good at remembering important weather information from many days ago.However, properly cleaning the data and choosing the right sequence length (30 days) are equally important for accurate weather predictions.
