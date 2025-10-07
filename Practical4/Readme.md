@@ -1,4 +1,4 @@
-# Weather Prediction using LSTM and GRU: Practical 4
+# Implement LSTM and GRU layers using a deep learning framework -TensorFlow: Practical 4
 
 ## 1. Introduction
 
