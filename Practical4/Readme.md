@@ -148,11 +148,6 @@ This report presents the implementation and comparison of LSTM and GRU models fo
 - LSTM outperforms GRU across all accuracy metrics
 - LSTM shows 26% improvement in RMSE (1.45°C vs 1.83°C)
 - LSTM predictions are significantly more accurate for ±1°C and ±2°C thresholds
-- **Unexpected finding**: LSTM trained 5.2× faster than GRU despite having 23% more parameters
-- LSTM's superior speed likely due to optimized CUDA/cuDNN kernels on the hardware used
-- LSTM is the clear winner: better accuracy AND faster training
-- The theoretical parameter efficiency of GRU did not translate to practical speed advantage in this setup
-
 ---
 
 ## 6. Visualization Analysis
