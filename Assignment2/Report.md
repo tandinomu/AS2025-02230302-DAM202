@@ -3,7 +3,7 @@
 
 ## 1. Introduction
 
-### 1.2 Project Objective
+### 1.2 Objective
 
 This assignment develops a machine learning model to predict weather categories (sunny, cloudy, rainy, or stormy) for the next **6 hours** based on historical weather time series data. The prediction system uses deep learning architectures to analyze temporal patterns in meteorological variables and classify future weather states.
 
