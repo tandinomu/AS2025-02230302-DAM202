@@ -1,5 +1,5 @@
 # Transformer Architecture Implementation Report
-**Practical 6:** Implementation of "Attention Is All You Need" (Vaswani et al., 2017)  
+**Practical 6:** Implementation of "Attention Is All You Need"  
 
 ---
 
@@ -26,7 +26,7 @@ The Transformer consists of an encoder-decoder structure with stacked layers. Bo
 
 ### Complete Architecture Diagram
 
-![Transformer Architecture](transformer_architecture_complete.png)
+![Transformer Architecture](./images/p6.jpg)
 
 *Figure 1: Complete Transformer architecture showing encoder (left) and decoder (right) stacks with N=6 layers each. Components are labeled with their corresponding PyTorch class names.*
 
@@ -365,7 +365,7 @@ All components passed individual verification:
 
 **Interpretation:** Gradients flow correctly through all layers with no vanishing/exploding issues.
 
-### 8.5 Output Statistics (Untrained Model)
+### 8.5 Output Statistics
 
 - Mean: 0.0000 (well-centered)
 - Std: 0.3135 (healthy variance)
