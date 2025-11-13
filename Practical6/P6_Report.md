@@ -28,6 +28,8 @@ The Transformer consists of an encoder-decoder structure with stacked layers. Bo
 
 ![Transformer Architecture](./images/p6.jpg)
 
+*Figure 1: Complete Transformer architecture showing encoder (left) and decoder (right) stacks with N=6 layers each.*
+
 **Data Flow:**
 1. Input tokens → Embeddings + Positional Encoding
 2. Encoder processes source sequence (6 layers)
