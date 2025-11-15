@@ -129,9 +129,9 @@ QA F1-Score:     0.6123 (61.23%)   Good
 ## 6. Conclusion
 
 ### Achievements
-**Model Design (A++):** Multi-task architecture fully implemented with hard parameter sharing  
-**Evaluation (A++):** All metrics computed (F1 for NER, EM/F1 for QA)  
- **Visualization (A++):** Strong evidence of shared learning via encoder activations
+**Model Design :** Multi-task architecture fully implemented with hard parameter sharing  
+**Evaluation :** All metrics computed (F1 for NER, EM/F1 for QA)  
+ **Visualization :** Strong evidence of shared learning via encoder activations
 
 ### Key Findings
 - **Parameter Efficiency:** 99.9% parameters shared between tasks
