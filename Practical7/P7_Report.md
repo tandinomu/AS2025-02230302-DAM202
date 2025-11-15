@@ -126,7 +126,7 @@ QA F1-Score:     0.6123 (61.23%)   Good
 
 ---
 
-## 6. Conclusion
+## 6. Conclusion.
 
 ### Achievements
 **Model Design :** Multi-task architecture fully implemented with hard parameter sharing  
